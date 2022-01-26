@@ -2,3 +2,4 @@ telebot
 requests
 telegram
 PyTelegramBotAPI
+dotenv
