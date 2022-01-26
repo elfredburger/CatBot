@@ -26,22 +26,6 @@ def show_cat(message):
             bot.send_photo(message.from_user.id,a[0].get('url'))
     if message.text=='help':
         bot.send_message(message.from_user.id,'Type breeds or /breeds to get list of breeds'+'\n'+'Type cat to get a random cat'+'\n'+'Type a cat breed of a short id to get a picture of cat of desired breed')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    else: bot.send_message(message.from_user.id,'Type breeds or /breeds to get list of breeds'+'\n'+'Type cat to get a random cat'+'\n'+'Type a cat breed of a short id to get a picture of cat of desired breed')
 
 bot.polling(none_stop=True, interval=0)
